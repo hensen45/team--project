@@ -1,138 +1,482 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<html>
 <head>
-<title>Contact us</title>
-<meta charset="utf-8">
-</head>
-
-<body>
-    <h1 style="color:brown">Contact us</h1>
-    <section>
-    <img src="./images/spoon.jpg" width="200" alt="tableware"><img src="./images/cap.png" width="150" alt="a cook's hat">
-    </section>
-
-    <nav>
-    <ul>
-    <li><a href="indx.html">Home</a></li>
-    <li><a href="Meue.html">Menu</a></li>
-    <li><a href="About Us page.html">About Us page</a></li>
-    <li><a href="Contact Us.html">Contact Us</a></li>
-    </ul>
-    </nav>
-
-    <hr>
-
-    <section>
-        <h2>Inquiries</h2>
-        <p>
-            name :  <input type="text" name="yourname" id="yourname"
-            value="" size="30"  />
-        </p>
-        <p>
-            e-mail :  <input type="text" name="youremail" id="youremail"
-            value="" size="50" />
-        </p>
-        <p>
-            subject : <input type="text"
-            name="subject"
-            id="subject"
-            value="" size="100" />
-        </p>
-        contents :
-        <p>
-            <textarea name="contents" id="contents" cols="150" rows="10">plz wirte here..</textarea>
-        </p>
-        <p><em>※response time</em> </p>
-        <p><em>* Weekdays(Monday-Friday) 09:00~18:00, Weekends and public holidays 09:00~16:00</em></p>
-        <hr>
-    </section>
-
-    <section>
-        <h2>location</h2>
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3163.1384492870343!2d127.07105957580502!3d37.55180177204241!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357ca4d0720eecc1%3A0x1a7ad975c6b5e4eb!2z7IS47KKF64yA7ZWZ6rWQ!5e0!3m2!1sko!2skr!4v1681845837357!5m2!1sko!2skr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-    </section>
-    <hr>
-
-    <section>
-
-        <h2>Contact information</h2>
-        <ul>
-            <li>address : 209, Neungdong-ro, Gwangjin-gu, Seoul, Republic of Korea </li>   
-            <li>Tel : 02-xxx-xxxx</li>
-            <li>e-mail : abcdefg@google.com</li>
-
-
-        </ul>
-
-    </section>
-    <hr>
-
-    <section>
-        <h2>Instructions and Precautions</h2>
-        <p>
-            <ul>
-                <li>A reservation fee of 30,000 won will be charged to prevent no-show when making a reservation.</li>
-                <li>A 10% fee will be charged for cancellation of the reservation on the same day.</li>
-                <li>Please make a reservation by phone or email.</li> 
-                
-            </ul>
-        </p>
-
-    </section>
-    <hr>
-
-    <section>
-        <h2>Operating hours</h2>
-
-        At the time of Reservation, the operating hours on weekdays and weekends/holidays vary, so please check before making a reservation.
-        <ul>
-            [Weekday Operating Hours]
-            <li>Lunch : 12:00~15:00</li>
-            ※There is a 20% discount on all menus in the lunch.
-            <li>Dinner : 18:00~21:00</li>
-        </ul>
-        
-        <ul>
-            [Weekend Operating Hours]
-            <li>Lunch Part 1 : 11:30~13:20</li>
-            <li>Lunch Part 2 : 13:40~15:30</li>
-            <li>Dinner 1st session : 17:00~18:50</li>
-            <li>Dinner Part 2 : 19:10~21:00</li>
-        </ul>
-
-        
-    </section>
-    <hr>
-
-    <section>
-        <h2>FAQ</h2>
-
-        <ul>
-            <li>Is it possible to hold events such as birthday parties and proposals?<ul><li>Of course. Our restaurant always does its best to provide services and events for your convenience.</li></ul></li><br>
-
-            <li>There are vegetables that I can't eat such as cucumbers and carrots, so can you exclude them?<ul><li>Our restaurant is considering that there are foods that you can't eat for personal reasons.Therefore, if you tell us when you order, we are trying to meet the requirements as much as possible.</li></ul></li><br>
-
-            <li>Is parking available?<ul><li>Parking facilities that can accommodate up to 100 cars are available for you. Thank you always.</li></ul></li>
-
-        </ul>
-
-    </section>
-    <hr>
+    <link rel="icon" href="images/favicon-32x32.png">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Best Restaurant in Town</title>
     
+</head>
+<body>
+    <header>
+        <img src="images/cutlery_left.jpg" alt="cutlery" width="140">
+        <img src="images/cutlery_left.jpg" alt="cutlery" width="170">
+        <img src="images/cutlery_left.jpg" alt="cutlery" width="200">
+        <img src="images/logo.jpg" alt="logo" width="200">
+        <img src="images/cutlery_right.jpg" alt="cutlery" width="200">
+        <img src="images/cutlery_right.jpg" alt="cutlery" width="170">
+        <img src="images/cutlery_right.jpg" alt="cutlery" width="140">
+        <nav>
+            <hr>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="Menu.html">Menu</a></li>
+                <li><a href="About_Us.html">About us</a></li>
+                <li><a href="Contact_Us.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="Hero">
+        <hr>
+        <h1>Home page</h1>
+        <h2>Welcome to Restaurant XYZ, where every dish is a masterpiece</h2>
+        <img src="images/restaurant.jpg" alt="restaurant" width="1500">
+    </section>
+
+    <section id="Specials">
+        <header><h2>Specials</h2></header>
+        
+        <table>
+            <tr>
+                <th>Monday : Dolma</th>
+                <th>ingredients</th>
+                <th>preparation method</th>
+            </tr>
+
+            <tr>
+                <td><img src="images/specials_monday_dolma.jpg" alt="specials_monday_dolma" width="550"></td>
+                <td>
+                    <ol>
+                        <li>Grape leaves</li>
+                        <li>Ground beef or lamb</li>
+                        <li>Rice</li>
+                        <li>Onion</li>
+                        <li>Tomato paste</li>
+                    </ol>
+                </td>
+                <td>
+                    <ol>
+                        <li>Mix together ground beef or lamb, rice, onion, and tomato paste in a bowl.</li>
+                        <li>Wrap the mixture in grape leaves.</li>
+                        <li>Cook the dolma in a pot of water for 30-40 minutes until the rice is cooked and the meat is tender.</li>
+                    </ol>
+                </td>
+            </tr>
+            <!--월요일 끝-->
+
+            <tr>
+                <th>Tuesday : Fried shrimps in sauce</th>
+                <th>ingredients</th>
+                <th>preparation method</th>
+            </tr>
+
+            <tr>
+                <td><img src="images/specials_tuesday_FiredShrimps.jpg" alt="specials_tuesday_FiredShrimps" width="550"></td>
+                <td>
+                    <ol>
+                        <li>Shrimp</li>
+                        <li>Tomatoes</li>
+                        <li>Olive oil</li>
+                        <li>Black pepper</li>
+                        <li>Onion</li>
+                        <li>Garlic cloves</li>
+                    </ol>
+                </td>
+                <td>
+                    <ol>
+                        <li>Mix flour, salt, and black pepper in a bowl.</li>
+                        <li>Coat shrimp in the flour mixture.</li>
+                        <li>Heat olive oil in a large skillet over medium-high heat. Cook shrimp until golden brown on both sides, about 2-3 minutes per side. Remove shrimp from skillet and set aside.</li>
+                        <li>Grill shrimp for 2-3 minutes per side, or until cooked through.</li>
+                        <li>In the same skillet, cook onion and garlic until softened, about 2-3 minutes. Add diced tomatoes, white wine, and bring to a simmer. Cook for 5-7 minutes or until sauce has thickened slightly.</li>
+                        <li>Return shrimp to skillet and cook for an additional 2-3 minutes or until heated through.</li>
+                    </ol>
+                </td>
+            </tr>
+                <!--화요일 끝--><!--이 이후로 정렬다시해야함-->
+
+            <tr>
+                    <th>Wednesday : Pasta with Shrimp</th>
+                    <th>ingredients</th>
+                    <th>preparation method</th>
+            </tr>
+
+            <tr>
+                    <td><img src="images/specials_wednesday_Pasta.jpg" alt="specials_wednesday_Pasta" width="550"></td>
+                    <td>
+                        <ol>
+                            <li>Pasta</li>
+                            <li>Garlic</li>
+                            <li>Red pepper flakes</li>
+                            <li>Olive oil</li>
+                            <li>Butter</li>
+                        </ol>
+                    </td>
+                    <td>
+                        <ol>
+                            <li>Heat oil and butter in skillet.</li>
+                            <li>Add garlic and red pepper flakes, cook for 1 min.</li>
+                            <li>Add shrimp, cook for 2-3 mins per side.</li>
+                            <li>Season with salt and pepper.</li>
+                            <li>Drain pasta and add to skillet with shrimp.</li>
+                        </ol>
+                    </td>
+            </tr>
+                <!--수요일 끝-->
+
+            <tr>
+                    <th>Thursday : Pita Bread</th>
+                    <th>ingredients</th>
+                    <th>preparation method</th>
+            </tr>
+
+            <tr>
+                    <td><img src="images/specials_thursday_PitaBread.jpg" alt="specials_thursday_PitaBread" width="550"></td>
+                    <td>
+                        <ol>
+                            <li>Pita Bread</li>
+                            <li>Tomato</li>
+                            <li>Cooked chicken or lamb, sliced</li>
+                            <li>Onion</li>
+                            <li>Cucumber</li>
+                        </ol>
+                    </td>
+                    <td>
+                        <ol>
+                            <li>Stuff each pita pocket with sliced chicken or lamb, cucumber, red onion, tomato, feta cheese, Kalamata olives, and parsley.</li>
+                            <li>Place the pita pockets on a baking sheet and bake in the oven for about 10 minutes</li>
+                            <li>Or until the pita bread is slightly crispy and the filling is warm</li>
+                        </ol>
+                    </td>
+            </tr>
+            <!-- 목요일 끝 -->
+
+            <tr>
+                    <th>Friday : Seafood Paella</th>
+                    <th>ingredients</th>
+                    <th>preparation method</th> 
+            </tr>
+
+            <tr>
+                <td><img src="images/specials_friday_SeafoodPaella.jpg" alt="specials_friday_SeafoodPaella" width="550"></td>
+                <td>
+                    <ol>
+                        <li>Rice</li>
+                        <li>Prawns</li>
+                        <li>Shrimp</li>
+                        <li>Clams</li>
+                        <li>Tomato</li>
+                        <li>Onion</li>   
+                    </ol>
+                </td>
+                <td>
+                    <ol>
+                        <li>Pour in the stock then reduce the heat, partially cover and allow to simmer for 7 minute or until most of the liquid has been absorbed and the rice is almost cooked.</li>
+                        <li>Add the squid, calamari and shrimp, tucking it into the rice.</li>
+                        <li>Try not to disturb the bottom of the rice which should be forming a nice crust as it cooks.</li>
+                        <li>Cover again then cook for another 5-7 minutes until the seafood and rice are fully cooked.</li>
+                    </ol>
+                </td>
+            </tr>
+            <!-- 금요일 끝 -->
 
 
+            <tr>
+                    <th>Saturday : Pork Meat Ssam</th>
+                    <th>ingredients</th>
+                    <th>preparation method</th>
+            </tr>
+                
+            <tr>
+                    <td><img src="images/specials_saturday_PorkMeatSsam.jpg" alt="specials_saturday_PorkMeatSsam" width="550"></td>
+                    <td>
+                        <ol>
+                            <li>Pork Meat</li>
+                            <li>Salad Greens</li>
+                            <li>Dijon,wholegrain mustard</li>
+                            <li>Ssam</li>
+                        </ol>
+                    </td>
+                    <td>
+                        <ol>
+                            <li>Take your pork slices and cover with 1 teaspoon of olive oil and liberally apply salt to both sides.</li>
+                            <li>Cook in the oven until golden brown and crispy. Approximately 20-30 minutes.</li>
+                            <li>Make your vinaigrette by adding mustards, white wine vinegar, and olive oil into a small bowl and whisk or mix with a fork until thickened and combined well.</li>
+                            <li>Remove your crispy cooked pork belly from the oven and allow to cool, then slice into bite size pieces.</li>
+                            <li>Toss your salad greens with the vinaigrette and top with sliced pork belly, candied nuts, blue vein cheese, and pear.</li>
+                        </ol>
+                    </td>
+            </tr>
+            <!-- 토요일 끝 -->
 
+            <tr>
+                    <th>Sunday : Grilled Chuck Roast</th>
+                    <th>ingredients</th>
+                    <th>preparation method</th>
+            </tr>
+                
+            <tr>
+                    <td><img src="images/specials_sunday_GrilledChuckRoast.jpg" alt="specials_sunday_GrilledChuckRoast" width="550"></td>
+                    <td>
+                        <ol type="1">
+                            <li>Chuck Steak</li>
+                            <li>Dijon mustard</li>
+                            <li>Garlic</li>
+                            <li>Beef bouillon</li>
+                            <li>Fresh parsley</li>
+                        </ol>
+                    </td>
+                    <td>
+                        <ol type="1">
+                            <li>Whisk the balsamic vinegar, olive oil, shallot, garlic, parsley, Dijon, sugar, beef bouillon, salt, pepper, and meat tenderizer in a bowl.</li>
+                            <li>Score the chuck roast with a sharp knife making 6 or 7 large cuts all over one side of the meat.</li>
+                            <li>Add the marinade to a plastic bag and then add the steak.</li>
+                            <li>Seal the bag and massage the marinade into the steak. Place it on a plate to catch any drips or leaks and refrigerate for at least 6 hours, ideally overnight.</li>
+                            <li>Remove the roast from the grill and allow to rest loosely covered with foil, about 10 minutes.</li>
+                        </ol>
+                    </td>
+            </tr>
+            <!-- 일요일 끝 -->
+        </table>
+        
+    </section>
 
+    <section id="Reviews">
+        <header><h2>Reviews</h2></header>
+        <table>
+            <tr>
+                <th>Picture</th>
+                <th>rating</th>
+                <th>quotes</th>
+            </tr>
+            
+            <tr>
+                <td><img src="images/specials_tuesday_FiredShrimps.jpg" alt="Tuesday special : FiredShrimps" width="250"></td>
+                <td>★★★★★</td>
+                <td>I had the Tuesday's "Fired Shrimps". it was delicious! The staff were very friendly and attentive, making for a great dining experience overall. I highly recommend this dish and will definitely be coming back again!</td>
+            </tr>
+            
+            <tr>
+                <td><img src="images/specials_friday_SeafoodPaella.jpg" alt="Friday special : Seafood Paella" width="250"></td>
+                <td>★★★★★</td>
+                <td>I tried the Seafood Paella on a friend's recommendation and it was amazing! The dish was packed with fresh ingredients and the flavors blended together perfectly. The restaurant was also very clean and well-maintained, making for a great dining experience overall. I would definitely recommend this dish to anyone looking for a delicious seafood meal.</td>
+            </tr>
 
-<section>
-    <footer><address> <br>
-       open hours 12:00 - 21:00 , 
- 15:00 - 18:00 Breaktime | Address : 209, Neungdong-ro, Gwangjin-gu, Seoul, Republic of Korea | Tel : 02-xxx-xxxx<br>
-<img src="./images/instagram.jpg" width="20"  alt="instagram">xyz_restaurant <img src="./images/youtube.jpg" width="20" alt="youtube">xyz_restaurant</address></footer>
-</section>
+            <tr>
+                <td><img src="images/specials_wednesday_Pasta.jpg" alt="Wednesday special : Pasta" width="250"></td>
+                <td>★★★★★</td>
+                <td>I had the Wednesday special, Mediterranean Pasta with Tomato and Basil Shrimp and Lobster, and it was absolutely delicious! The ingredients were incredibly fresh and the flavors were unlike anything I've had before. The combination of the seafood with the tomato and basil sauce was a perfect balance. Overall, I highly recommend this dish to anyone looking for a unique and flavorful pasta experience.</td>
+            </tr>
+
+            
+        </table>
+
+    </section>
+
+    <section id="Reservation">
+        <header><h2>Reservation</h2></header>
+        <form action="./"  >
+            <input type="datetime-local" name="reservation time">
+            <br>
+
+            <select>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="5~10">5~10</option>
+                <option value="more 10">more 10</option>
+            </select>
+
+            <input type="text" name="name" placeholder="name">
+            <br>
+
+            <textarea name="text here" cols="30" rows="5" placeholder="text here any special requests or dietary restrictions"></textarea>
+            <br>
+
+            <input type="submit" value="Submit">
+        </form>
+
+    </section>
+
+    <section id="Table">
+        <header><h2>Table</h2></header>
+
+        <h3>Appetizers</h3>
+        <table>
+            <tr>
+                <th>Menu</th>
+                <th>Price</th>
+            </tr>
+            <tr>
+                <td>Stuffed Mushrooms</td>
+                <td>9000won</td>
+            </tr>
+            <tr>
+                <td>Shrimp Cocktail</td>
+                <td>12000won</td>
+            </tr>
+            <tr>
+                <td>Bruschetta</td>
+                <td>8000won</td>
+            </tr>
+        </table>
+
+        <h3>Entrees</h3>
+        <table>
+            <tr>
+                <th>Menu</th>
+                <th>Price</th>
+            </tr>
+            <tr>
+                <td>Grilled Salmon</td>
+                <td>12000won</td>
+            </tr>
+            <tr>
+                <td>Filet Mignon</td>
+                <td>13000won</td>
+            </tr>
+            <tr>
+                <td>Chicken Parmesan</td>
+                <td>12000won</td>
+            </tr>
+        </table>
+
+        <h3>Desserts</h3>
+        <table>
+            <tr>
+                <th>Menu</th>
+                <th>Price</th>
+            </tr>
+            <tr>
+                <td>Tiramisu</td>
+                <td>7000won</td>
+            </tr>
+            <tr>
+                <td>Cream Brulee</td>
+                <td>6500won</td>
+            </tr>
+            <tr>
+                <td>Chocolate Lava Cake</td>
+                <td>7000won</td>
+            </tr>
+        </table>
+
+        <h3>Drinks</h3>
+        <table>
+            <tr>
+                <th>Menu</th>
+                <th>Price</th>
+            </tr>
+            <tr>
+                <td>White Wine-Villa M</td>
+                <td>7000won</td>
+            </tr>
+            <tr>
+                <td>Draft Beer-Asahi</td>
+                <td>6000won</td>
+            </tr>
+            <tr>
+                <td>Cocktail-Peach Crush</td>
+                <td>7000won</td>
+            </tr>
+        </table>
+        <p>Please refer to the <a href="Menu.html" target="_blank">menu page</a> for more information. </p>
+
+            
+        
+    </section>
+
+    <section id="Video">
+        <header><h2>Video</h2></header>
+        <video width="640" height="360" controls autoplay>
+            <source src="video/Cook_What_it_Takes_to_Make_It_in_a_Michelin_Starred_Restaurant.mp4" type="video/mp4">
+        </video>
+    </section>
+
+    <section id="Audio">
+        <header><h2>Audio</h2></header>
+        <audio controls loop>
+            <source src="./music/elegance-142593.mp3">
+        </audio>
+          
+    </section>
+
+    <section id="description">
+        <header><h2>Description</h2></header>
+        <div>
+            <h3>Please feel free to "contact us" if you have further inquiries</h3>
+            <p>Phone number: 555<sub>-</sub>123<sub>-</sub>4567</p>
+            <p>Email address: <a href="mailto:info@restaurantxyz.com">info<sup>@</sup>restaurantxyz.com</a></p>
+        </div>
+        <hr>
+
+        <div>
+            <h3>Restaurant's Cuisine</h3>
+            <p>Our restaurant serves Mediterranean and Asian fusion dishes using fresh local ingredients.</p>
+            <p>The Mediterranean spices and dishes harmonized with Asian tastes are enough to satisfy your taste.</p>
+            <p>Also, our restaurant is interested in sustainable agriculture and aquaculture, so we use environmentally friendly ingredients.</p>        
+            <h4>summary</h4>
+            <dl>
+                <dt>food ingredients</dt>
+                <dd>--use of 
+                    <a href="http://www.fishex.com/" target="_blank">fresh</a>, 
+                    <a href="http://www.rainbowplate.com/shop" target="_blank">locally sourced</a> ingredients (if you click "fresh" or "locally sourced", you can go our restaurant's suppliers' homepage.)
+                </dd>
+                    
+                <dt>focus on</dt>
+                <dd>--Mediterranean and Asian fusion cuisine</dd>
+            </dl>
+
+        </div>
+        <hr>
+        <div>
+            <h3>Restaurant's Rewards</h3>
+            <ul>
+                <li>"Best of the City" award</li>
+            </ul>
+            <p>"Best of the City" award : Recognition from local food critics</p>
+            <p>You can see more awards <a href="About_Us.html#Awards" target="_blank">here!</a></p>
+        </div>
+        <hr>
+        <div>
+            <h3>History</h3>
+            <ol>
+                <li>founding by Chef John Smith in 1988</li>
+                <li>Popular with innovative dishes based on local ingredients and culinary traditions in the Mediterranean and Asia</li><!--지역 식재료와 지중해와 아시아 지역의 요리 전통을 기반으로 한 혁신적인 요리로 인기를 모음.-->
+                <li>Chef John Smith has always made dishes using fresh ingredients and innovative techniques.</li><!--존 스미스 셰프는 항상 신선한 재료와 혁신적인 기술을 사용하여 요리를 만들어왔습니다.-->
+                <li>It has become one of the most beloved restaurants in the region.</li><!--지역에서 가장 사랑받는 레스토랑 중 하나로 자리 잡게 되었습니다-->
+                <li>His cooking has consistently won many awards in the American culinary world</li><!--그의 요리는 지속적으로 미국 요리계에서 많은 상을 수상했습니다-->
+                <li>He is famous for his personality through charity activities, etc</li><!--자선단체 활동 등으로 인성적 측면으로도 유명함-->
+                <li>The perfect combination of taste and service made it a good memory for customers and became a restaurant that is constantly loved.</li><!--고객들에게는 맛과 서비스의 완벽한 조화로 좋은 기억으로 남아 꾸준히 사랑받는 레스토랑이 됐습니다.-->
+            </ol>
+        </div>
+        <hr>
+        <div>
+            <h3>Customers say that..</h3>
+            <blockquote>
+                <p>&ldquo;I've been coming to Restaurant <abbr title="Restaurant XYZ">XYZ</abbr> for years and I'm always blown away by the quality of the food and the impeccable service&rdquo;</p>
+            </blockquote>
+        </div>
+        
+    </section>
+
+    <footer>
+        <hr>
+        <p>
+            open hours 12:00 - 21:00 , 
+            15:00 - 18:00 Breaktime<br>
+        fax: <a href="tel:+025659746"> 02-565-9746 </a>| Customer Service : <a href="tel:+0215448452">1544-8452</a>
+         | Headquarter Contact : <a href="tel:+02822852">02-822-852</a><br>
+         email :<a href="mailto:RestaurantXYZ@gmail.com"> RestaurantXYZ@gmail.com</a>
+        <img src="images/instagram.jpg" alt="Instagram Icon" width="20">Instagram : Restaurant XYZ |
+        <img src="images/youtube.jpg" alt="Youtube Icon" width="20">Youtube : Restaurant XYZ<br>
+        Image Source : https://free-images.com | https://www.freepik.com
+    </p>
+    </footer>
+  
 </body>
-
 
 </html>
